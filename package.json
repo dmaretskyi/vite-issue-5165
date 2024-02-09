@@ -1,0 +1,22 @@
+{
+  "name": "vite-issue-5165",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@nx/vite": "17.3.2",
+    "@nx/web": "17.2.8",
+    "@vitest/browser": "^1.2.2",
+    "nx": "17.2.8",
+    "vite": "^5.1.0",
+    "vitest": "^1.2.2",
+    "webdriverio": "^8.31.1"
+  },
+  "dependencies": {}
+}

@@ -1,0 +1,11 @@
+{
+  "$schema": "../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "project2",
+  "projectType": "library",
+  "name": "project2",
+  "targets": {
+    "vitest": {
+      "executor": "@nx/vite:test"
+    }
+  }
+}

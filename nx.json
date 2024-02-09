@@ -1,0 +1,21 @@
+{
+  "$schema": "./node_modules/nx/schemas/nx-schema.json",
+  "affected": {
+    "defaultBase": "master"
+  },
+  "namedInputs": {
+    "default": [
+      "{projectRoot}/**/*"
+    ]
+  },
+  "targetDefaults": {
+    "vitest": {
+      "executor": "@nx/vite:test",
+      "cache": true,
+      "inputs": [
+        "default"
+      ],
+      "options": {}
+    }
+  }
+}
